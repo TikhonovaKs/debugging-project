@@ -50,7 +50,12 @@ body {
 }
 
 .button:hover {
-  background-color: rgb(68, 18, 116);
+  /* background-color: rgb(68, 18, 116); */
+}
+
+.button_disabled {
+  background-color: grey;
+  cursor: default;
 }
 
 .temp {
